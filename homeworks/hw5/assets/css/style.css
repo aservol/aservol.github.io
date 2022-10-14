@@ -1,0 +1,50 @@
+.nav{
+    width: 85px;
+}
+.nav--button{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.dashboard{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+
+}
+.dashboard--title{
+    flex:auto;
+}
+.dashboard--classes{
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-template-columns: 275px 275px 275px;
+    grid-template-rows: 275px 275px;
+    grid-gap: 2rem;
+}
+
+.dashboard--classes__box{
+   column-width: 31.5%; 
+   padding-bottom: 35px;     
+}
+:hover .dashboard--classes__box {
+    box-shadow: 0 4px 10px rgba(0,0,0,0.35)
+}
+
+.dashboard--classes__box__image{
+   border-top-left-radius: 5px;
+}
+
+:hover h2 h3 h4 {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.notifications__notifs .notifications__notifs--box{
+    display: flex;
+    align-items: justify;
+    text-align: justify;        
+}
