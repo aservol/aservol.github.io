@@ -1,0 +1,416 @@
+body {
+    position: relative;
+    width: 1250px;
+    height: 1117px;
+    background: #FFFFFF; 
+}
+
+.homepage {
+    position: relative;
+}
+
+.header {
+    position: absolute;
+    width: 1261px;
+    height: 146px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+
+#italia {
+    position: absolute;
+    width: 1250px;
+    height: 146px;
+    left: 0px;
+    top: 0px;
+    opacity: 30%;
+}
+
+#logo {
+    position: absolute;
+    width: 433px;
+    height: 100px;
+    left: 25px;
+    top: 23px;
+    cursor: pointer;
+}
+
+span.Menu {
+    position: absolute;
+    width: 106px;
+    height: 53px;
+    left: 572px;
+    top: 35px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 53px;
+    text-align: center;
+    color: #000000;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+}
+
+
+#manicotti {
+    box-sizing: border-box;
+    position: absolute;
+    width: 363px;
+    height: 245px;
+    left: 0px;
+    top: 146px;
+    border: 1px solid #000000;
+    opacity: 30%;
+}
+
+:hover#manicotti {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.title1 {
+    position: absolute;
+    width: 136px;
+    height: 40px;
+    left: 114px;
+    top: 170px;
+    text-align: center;
+    font-size: x-large;
+    text-decoration: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.manicotti {
+    position: absolute;
+    width: 243px;
+    height: 122px;
+    left: 60px;
+    top: 238px;    
+    text-align: center;
+}
+
+#minestrone {
+    box-sizing: border-box;
+    position: absolute;
+    width: 363px;
+    height: 245px;
+    left: 431px;
+    top: 146px;
+    border: 1px solid #000000;
+    opacity: 30%;
+}
+
+:hover#minestrone {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+
+.title2 {
+    position: absolute;
+    width: 236px;
+    height: 40px;
+    left: 507px;
+    top: 173px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: x-large;
+}
+
+.minestrone {
+    position: absolute;
+    width: 257px;
+    height: 117px;
+    left: 489px;
+    top: 238px;
+    text-align: center;
+}
+
+#vegetables {
+    box-sizing: border-box;
+    position: absolute;
+    width: 363px;
+    height: 245px;
+    left: 887px;
+    top: 146px;
+    border: 1px solid #000000;
+    opacity: 30%;
+}
+
+:hover#vegetables {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.title3 {
+    position: absolute;
+    width: 234px;
+    height: 40px;
+    left: 959px;
+    top: 173px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: x-large;
+}
+
+.vegetables {
+    position: absolute;
+    width: 223px;
+    height: 114px;
+    left: 959px;
+    top: 230px;
+    text-align: center;
+}
+
+
+#margherita {
+    box-sizing: border-box;
+    position: absolute;
+    width: 363px;
+    height: 245px;
+    left: 0px;
+    top: 452px;
+    border: 1px solid #000000;
+    opacity: 30%;
+}
+
+:hover#margherita {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.title4 {
+    position: absolute;
+    width: 155px;
+    height: 40px;
+    left: 105px;
+    top: 468px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: x-large;
+}
+
+.margherita {
+    position: absolute;
+    width: 243px;
+    height: 145px;
+    left: 61px;
+    top: 535px;
+    text-align: center;
+}
+
+#lasagna {
+    box-sizing: border-box;
+    position: absolute;
+    width: 363px;
+    height: 245px;
+    left: 431px;
+    top: 452px;
+    border: 1px solid #000000;
+    opacity: 30%;
+}
+
+:hover#lasagna {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.title5 {
+    position: absolute;
+    width: 116px;
+    height: 40px;
+    left: 558px;
+    top: 477px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: x-large;
+}
+
+.lasagna {
+    position: absolute;
+    width: 260px;
+    height: 151px;
+    left: 489px;
+    top: 529px;
+    text-align: center;
+}
+
+#shrimps {
+    box-sizing: border-box;
+    position: absolute;
+    width: 363px;
+    height: 245px;
+    left: 887px;
+    top: 452px;
+    border: 1px solid #000000;  
+    opacity: 30%;
+}
+
+:hover#shrimps {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.title6 {
+    position: absolute;
+    width: 186px;
+    height: 40px;
+    left: 976px;
+    top: 477px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: x-large;
+}
+
+.shrimps {
+    position: absolute;
+    width: 260px;
+    height: 151px;
+    left: 939px;
+    top: 529px;
+    text-align: center;
+}
+
+#panettone {
+    box-sizing: border-box;
+    position: absolute;
+    width: 363px;
+    height: 245px;
+    left: 0px;
+    top: 758px;
+    border: 1px solid #000000;
+    opacity: 30%;
+}
+
+:hover#panettone {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.title7 {
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    left: 112px;
+    top: 792px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: x-large;
+}
+
+.panettone {
+    position: absolute;
+    width: 243px;
+    height: 117px;
+    left: 60px;
+    top: 853px;
+    text-align: center;
+}
+
+#panacotta {
+    box-sizing: border-box;
+    position: absolute;
+    width: 363px;
+    height: 245px;
+    left: 431px;
+    top: 758px;
+    border: 1px solid #000000; 
+    opacity: 30%;
+}
+
+:hover#panacotta {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.title8 {
+    position: absolute;
+    width: 138px;
+    height: 40px;
+    left: 544px;
+    top: 792px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: x-large;
+}
+
+.panacotta {
+    position: absolute;
+    width: 243px;
+    height: 117px;
+    left: 491px;
+    top: 844px;
+    text-align: center;
+}
+
+
+#tiramisu {
+    box-sizing: border-box;
+    position: absolute;
+    width: 363px;
+    height: 245px;
+    left: 887px;
+    top: 758px;
+    border: 1px solid #000000;
+    opacity: 30%;
+}
+
+:hover#tiramisu {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.title9 {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 1004px;
+    top: 769px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: x-large;
+}
+
+.tiramisu {
+    position: absolute;
+    width: 310px;
+    height: 169px;
+    left: 922px;
+    top: 821px;
+    text-align: center; 
+}
+
+
+.End {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1250px;
+    height: 114px;
+    left: 0px;
+    top: 1003px;
+    background: #FFFFFF;
+}
+
+.Copyright {
+    width: 1250px;
+    height: 114px;
+    left: 0px;
+    top: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: 0.5px solid #000000;

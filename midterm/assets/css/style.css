@@ -1,0 +1,355 @@
+body {
+    position: relative;
+    width: 1250px;
+    height: 1117px;
+    background: #FFFFFF;
+}
+
+.Homepage {
+    position: relative;
+}
+
+.Header {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1250px;
+    height: 195px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+}
+
+.Header.Name {
+    position: absolute;
+    width: 430px;
+    height: 144px;
+    left: 427px;
+    top: 8px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 53px;
+    color: #FFFFFF;
+    border: 3px solid #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#logo {
+    position: absolute;
+    width: 430px;
+    height: 130px;
+    left: 427px;
+    top: 27px;      
+}
+
+:hover#logo {
+    cursor: pointer;
+}
+    
+.Header.Search1 {
+    width: 393px;
+    height: 82px;
+    left: 20px;
+    top: 92px;
+    background: #FFFFFF;
+}
+
+.Header.Search2{
+    position: absolute;
+    width: 380px;
+    height: 82px;
+    left: 854px;
+    top: 99px;
+    background: #FFFFFF; 
+}
+
+
+span.Menu {
+    position: absolute;
+    width: 72px;
+    height: 36px;
+    left: 50px;
+    top: 115px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    background: #D9D9D9;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+
+span.Testimonial {
+    position: absolute;
+    width: 152px;
+    height: 36px;
+    left: 200px;
+    top: 115px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+span.Location {
+    position: absolute;
+    width: 113px;
+    height: 36px;
+    left: 890px;
+    top: 115px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+span.Contact {
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    left: 1080px;
+    top: 115px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-family: 'Jacques Francois';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 36px;
+    text-align: center;
+    color: #000000;
+    background: #D9D9D9;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.Image #italia {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1250px;
+    height: 208px;
+    left: 0px;
+    top: 193px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+}
+
+.Content {
+    box-sizing: border-box;
+    width: 1249px;
+    height: 381px;
+    left: 0px;
+    top: 400px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+}
+
+.About {
+    position: absolute;
+    width: 169px;
+    height: 53px;
+    left: 549px;
+    top: 416px;
+    text-align: center;
+    font-size:xx-large
+}
+
+.Text {
+    position: absolute;
+    width: 963px;
+    height: 172px;
+    left: 153px;
+    top: 481px;
+    font-size: x-large;
+    text-align:justify;
+}
+
+.Support {
+    box-sizing: border-box;
+    width: 1249px;
+    height: 311px;
+    left: 0px;
+    top: 692px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+}
+
+.Help {
+    position: absolute;
+    width: 381px;
+    height: 311px;
+    left: 0px;
+    top: 692px;
+    background: #D9D9D9;
+    border-left: 0.5px solid #000000;
+}
+
+.Contact {
+    width: 129px;
+    height: 46px;
+    left: 88px;
+    top: 708px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.Address, .Tel {
+    text-align: center;
+    font-size: larger;
+}
+
+.Picture {
+    position: absolute;
+    width: 457px;
+    height: 208px;
+    background: #FFFFFF;
+    
+}
+
+#pizzaman {
+    position: absolute;
+    width: 301.94px;
+    height: 282px;
+    left: 450px;
+    top: 705px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.Demand {
+    position: absolute;
+    width: 408px;
+    height: 311px;
+    left: 840.5px;
+    top: 692px;
+    background: #D9D9D9;
+    border-right: 0.5px solid #000000;
+}
+
+.Enquiries {
+    width: 281px;
+    height: 42px;
+    left: 918px;
+    top: 700px;
+    color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.rectangle {
+    width: 328px;
+    height: 32px;
+    left: 882px;
+    top: 773px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.email {
+    width: 80px;
+    height: 18px;
+    left: 907px;
+    top: 780px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.rectangle2 {
+    width: 328px;
+    height: 84px;
+    left: 880px;
+    top: 821px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.message {
+    width: 80px;
+    height: 18px;
+    left: 907px;
+    top: 837px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.rectangle3 {
+    width: 92px;
+    height: 32px;
+    left: 1116px;
+    top: 921px;
+    background: #FFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.send {
+    display: flex;
+    width: 50px;
+    height: 19px;
+    left: 1136px;
+    top: 940px;
+    margin: 0 auto;
+    text-align: center;
+    justify-content: center;
+    font-size: larger;
+    
+}
+
+:hover.send {
+    color:red;
+    cursor: pointer;
+}
+
+
+.End {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1250px;
+    height: 114px;
+    left: 0px;
+    top: 1003px;
+    background: #FFFFFF;
+    border: 0.5px solid #000000;
+}
+
+.Copyright {
+    width: 329px;
+    height: 93px;
+    left: 507px;
+    top: 1015px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
