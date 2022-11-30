@@ -1,0 +1,656 @@
+body {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background-color: white;
+}
+
+span.NFT {
+    position: absolute;
+    width: 266px;
+    height: 50px;
+    left: 520px;
+    top: 23px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+    color: #000000;
+    text-transform: uppercase;
+    -webkit-text-stroke:  2px #000000;
+}
+
+
+span.NFT:hover {
+    cursor: pointer;
+
+}
+
+
+.NFT::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transition: transform 0.15s ease-out;
+}
+
+.NFT:hover::after{
+    transform: scaleX(1);
+    transform-origin: bottom; 
+}
+
+#bayc {
+    position: absolute;
+    width: 202.2px;
+    height: 250px;
+    left: 145px;
+    top: 70px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%); 
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+
+#bayc:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#glass {
+    position: absolute;
+    width: 168.98px;
+    height: 187px;
+    left: 365px;
+    top: 133px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+
+
+#glass:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.connect {
+    position: absolute;
+    width: 471px;
+    height: 59px;
+    left: 68px;
+    top: 337px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: right;
+    
+    color: #000000;
+    -webkit-text-stroke:  1.5px #000000;
+    border-top: #000000 3px solid;
+    padding-top: 10px;
+
+}
+
+.miss {
+    position: absolute;
+    width: 227px;
+    height: 106px;
+    left: 72px;
+    top: 478px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    text-indent: 5px;
+    font-feature-settings: 'cpsp' on;
+    
+    color: #000000;
+    
+}
+
+
+#nirvana {
+    position: absolute;
+    width: 130px;
+    height: 164.02px;
+    left: 325px;
+    top: 474px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+
+
+@keyframes bounce {
+    from {
+        transform: translateX(0px);
+      }
+      to {
+        transform: translateX(-10px);
+      }
+ }
+
+
+#nirvana:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateX(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateX(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#victor {
+    position: absolute;
+    width: 175px;
+    height: 232px;
+    left: 573px;
+    top: 317px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+
+#victor:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#robot {
+    position: absolute;
+    width: 59px;
+    height: 174.37px;
+    left: 475px;
+    top: 464px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
+    filter: saturate(0%);
+}
+
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+
+#robot:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#leo {
+    position: absolute;
+    width: 182px;
+    height: 179px;
+    left: 168px;
+    top: 688px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+#leo:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#astro {
+    position: absolute;
+    width: 153px;
+    height: 218px;
+    left: 370px;
+    top: 658px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+#astro:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#bath {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    left: 713px;
+    top: 141px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+#bath:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#orange {
+    position: absolute;
+    width: 150px;
+    height: 148.46px;
+    left: 883px;
+    top: 124px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+#orange:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#turtle {
+    position: absolute;
+    width: 150px;
+    height: 141.53px;
+    left: 789px;
+    top: 320px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+#turtle:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+
+#planet {
+    position: absolute;
+    width: 200px;
+    height: 170px;
+    left: 959px;
+    top: 292px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+#planet:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
+#toy {
+    position: absolute;
+    width: 180px;
+    height: 150px;
+    left: 729px;
+    top: 802px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+#toy:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#party {
+    position: absolute;
+    width: 150px;
+    height: 112.5px;
+    left: 552px;
+    top: 804px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+#party:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#kii {
+    position: absolute;
+    width: 197px;
+    height: 195px;
+    left: 569px;
+    top: 579px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+#kii:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#cat {
+    position: absolute;
+    width: 300px;
+    height: 195.15px;
+    left: 806px;
+    top: 570px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    filter: saturate(0%);
+}
+@keyframes bounce {
+    from {
+        transform: translateY(0px);
+      }
+      to {
+        transform: translateY(-10px);
+      }
+ }
+
+#cat:hover {
+    transform: scale(1);
+    z-index: 1;
+    transform: translateY(-10px);
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-direction: alternate;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    transform: translateY(-10px);
+    filter: saturate(100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.space {
+    position: absolute;
+    width: 420px;
+    height: 35px;
+    left: 789px;
+    top: 472px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    
+    color: #000000;
+    -webkit-text-stroke:  1.5px #000000;
+
+    border-top: #000000 3px solid;
+    padding-top: 10px;
+    
+}
+
+
+.team {
+    position: absolute;
+    width: 275px;
+    height: 154px;
+    left: 944px;
+    top: 780px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    text-indent: 5px;
+    font-feature-settings: 'cpsp' on;
+    
+    color: #000000;
+}
+
+.copyright {
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 532px;
+    top: 966px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}

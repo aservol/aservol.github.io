@@ -1,0 +1,135 @@
+body {
+    position: relative;
+    width: 1024px;
+    height: 768px;
+    background-color: #FFFF;
+}
+
+#button {
+    position: absolute;
+    width: 364px;
+    height: 74px;
+    left: 445px;
+    top: 59px;
+    
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.NFT {
+    position: absolute;
+    width: 266px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 39px;
+    line-height: 47px;
+    text-decoration: #FFFFFF;
+    text-transform: uppercase;
+    -webkit-text-stroke:  2px #ffff;
+    padding-left: 53px;
+    padding-top: 12px;
+}
+
+#rectangle {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 98px;
+    height: 293px;
+    left: 622px;
+    top: 133px;
+    
+    border-left: 3px solid #000000;
+}
+
+
+#robot {
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 587.38px;
+    height: 330px;
+
+    border: 1px solid #000000;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));   
+}
+
+#title {
+    position: absolute;
+    width: 161px;
+    height: 38px;
+    left: 845px;
+    top: 355px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+    
+    text-align: right;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+
+#info {
+    position: absolute;
+    width: 74px;
+    height: 62px;
+    left: 265px;
+    top: 826px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: right;
+
+    color: #000000;
+}
+
+.copyright {
+    position: absolute;
+    width: 190px;
+    height: 24px;
+    left: 532px;
+    top: 936px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: center;
+    
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#left {
+    position: absolute;
+    width: 176.5px;
+    height: 806.5px;
+    left: 0px;
+    top: 133px;
+}
+
+#right {
+    position: absolute;
+    width: 173.5px;
+    height: 793px;
+    left: 1080px;
+    top: 133px;
+}
